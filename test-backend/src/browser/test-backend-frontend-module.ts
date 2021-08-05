@@ -14,6 +14,7 @@ import {
   HELLO_BACKEND_WITH_CLIENT_PATH,
 } from "../common/protocol";
 import { TestBackendCommandContribution } from "./test-backend-contribution";
+import "antd/dist/antd.css";
 import { TestViewWidget } from "./test-view-widget";
 import { TestViewContribution } from "./test-view.contribution";
 

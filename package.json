@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "build": "lerna run build",
     "prepare": "lerna run prepare",
     "rebuild:browser": "theia rebuild:browser",
     "rebuild:electron": "theia rebuild:electron",

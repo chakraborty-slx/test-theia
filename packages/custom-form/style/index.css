@@ -1,0 +1,29 @@
+.ant-btn {
+  margin-right: 8px;
+}
+
+.ant-form-item-label > label {
+  color: white;
+}
+
+
+
+body {
+  color: var(--theia-icon-foreground);
+  font-family: var(--theia-ui-font-family) !important;
+  font-size: var(--theia-content-font-size) !important;
+}
+/* @body-background: var(--vscode-editor-background);
+@component-background: var(--vscode-editor-background);
+@layout-body-background: var(--vscode-editor-background);
+@layout-header-background: @silexica5;
+@heading-color: var(--vscode-foreground);
+@text-color: var(--vscode-foreground);
+@font-family: var(--vscode-font-family); */
+
+.ant-btn-link[disabled] {
+  color: var(--vscode-foreground);
+}
+.ant-btn-link[disabled]:hover {
+  color: var(--vscode-foreground);
+}
