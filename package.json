@@ -12,6 +12,9 @@
     "lerna": "2.4.0"
   },
   "workspaces": [
-    "test-backend", "browser-app", "electron-app"
+    "packages/*",
+    "test-backend",
+    "browser-app",
+    "electron-app"
   ]
 }

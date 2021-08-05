@@ -19,7 +19,7 @@ const tailLayout = {
 };
 export type HellowWorldProps = {};
 // const Demo = () => {
-export const TestComponent: React.FC<HellowWorldProps> = (props) => {
+export const TestComponent2: React.FC<HellowWorldProps> = (props) => {
   const [form] = Form.useForm();
 
   const onGenderChange = (value: any) => {
