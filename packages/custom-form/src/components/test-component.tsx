@@ -1,6 +1,5 @@
 import React = require("react");
-import "antd/dist/antd.css";
-// import "./index.css";
+import "../../style/index.css";
 import { Form, Input, Button, Select } from "antd";
 const { Option } = Select;
 const layout = {
